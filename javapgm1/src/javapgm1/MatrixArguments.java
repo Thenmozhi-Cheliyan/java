@@ -35,13 +35,13 @@ public class MatrixArguments
 	
 	public static void displayProduct(int product[][])
 	{
-		
 		System.out.println("Multiplication of two matrices");
-		for(int[] row:product)
+		
+		for(int i=0;i<3;i++)
 		{
-			for(int column:row)
+			for(int j=0;j<3;j++)
 			{
-				System.out.print(column+"   ");
+				System.out.print(product[i][j]+"   ");
 			}
 			System.out.println();
 		}
